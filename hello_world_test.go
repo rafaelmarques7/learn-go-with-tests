@@ -18,15 +18,26 @@ func TestSayHelloToAnyone(t *testing.T) {
 	} 
 
 	t.Run("Saying Hello while passing a persons name", func(t *testing.T) {
-		got := SayHello("Raf")
+		got := SayHello("Raf", "")
 		want := "Hello, Raf!"
 		assertCorrectHelloMessage(t, got, want)
 	})
 
 	t.Run("Saying Hello without passing any arguments", func(t *testing.T) {
-		got := SayHello("")
+		got := SayHello("", "")
 		want := "Hello, World!"
 		assertCorrectHelloMessage(t, got, want)
 	})
 
+	t.Run("Saying Hello in Spanish", func(t *testing.T) {
+		got := SayHello("Gemma", "Spanish")
+		want := "Hola, Gemma!"
+		assertCorrectHelloMessage(t, got, want)
+	})
+
+	t.Run("Saying Hello in French", func(t *testing.T) {
+		got := SayHello("Emelie", "French")
+		want := "Bonjour, Emelie!"
+		assertCorrectHelloMessage(t, got, want)
+	})
 }
