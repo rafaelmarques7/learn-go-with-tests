@@ -22,6 +22,8 @@ func SayHello(name string, language string) string {
 }
 
 // this is an internal function, so it is named with a lower case
+// note: the function signature (helloPrefix string)
+// creates a variable with an null value, which becomes available inside the function
 func greetingPrefix(language string) (helloPrefix string) {
 	// choose the prefix based on the selected language
 	switch language {
@@ -33,7 +35,7 @@ func greetingPrefix(language string) (helloPrefix string) {
 		helloPrefix = helloPrefixEnglish
 	}
 
-	// the function signature is set to return `(helloPrefix string)`, 
+	// the function signature is set to return `(helloPrefix string)`,
 	// so this is what is returned when we call `return` without any arguments
 	return
 }
