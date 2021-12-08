@@ -5,3 +5,10 @@ This repo includes the source code that was created while following the [learn-g
 Notes: 
 * The code is self documenting. When something is not obvious, the code includes comments that are intended to provide clarification. I believe that this will help to better understand the code when re-reading it.
 * Lessons are organized into folders, because each folder can only have one package.
+
+Useful go scripts:
+* `go test`
+* `go test -v` - verbose mode
+* `go test -bench=.` - runs benchmark tests
+* `go test -cover` - shows code coverage
+
