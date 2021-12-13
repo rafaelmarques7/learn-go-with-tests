@@ -15,4 +15,4 @@ Useful go scripts:
 * `go test -v` - verbose mode
 * `go test -bench=.` - runs benchmark tests
 * `go test -cover` - shows code coverage
-
+* `go test -race` - checks to see if there are any race conditions
