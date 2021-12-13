@@ -9,10 +9,20 @@ Notes:
 * Lessons are organized into folders, because each folder can only have one package.
 * In Go, when you call a function or a method the arguments are copied.
 * "Make It Work Make It Right Make It Fast" 
+* `sync.WaitGroup`: 
+  ```
+  A WaitGroup waits for a collection of goroutines to finish. The main goroutine calls Add to set the number of goroutines to wait for. Then each of the goroutines runs and calls Done when finished. At the same time, Wait can be used to block until all goroutines have finished.
+  ```
+* Locks vs Channels
+  ```
+  - Use channels when passing ownership of data
+  - Use mutexes for managing state
+  ```
 
 
 Useful go scripts:
 * `go test`
+* `go vet` - checks your code for potential issues
 * `go test -v` - verbose mode
 * `go test -bench=.` - runs benchmark tests
 * `go test -cover` - shows code coverage
