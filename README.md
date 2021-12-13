@@ -8,6 +8,7 @@ Notes:
   * This may mean that code will be more verbose and may have some unecessary comments - or so it could seem - but these comments still add some value, at least for someone learning Go! 
 * Lessons are organized into folders, because each folder can only have one package.
 * In Go, when you call a function or a method the arguments are copied.
+* "Make It Work Make It Right Make It Fast" 
 
 
 Useful go scripts:
