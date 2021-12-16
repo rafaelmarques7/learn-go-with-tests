@@ -1,4 +1,4 @@
-module hello
+module github.com/rafaelmarques7/learn-go-with-tests
 
 go 1.17
 
