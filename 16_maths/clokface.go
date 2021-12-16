@@ -1,4 +1,4 @@
-package clock
+package clockface
 
 import (
 	// "fmt"
