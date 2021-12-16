@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/rafaelmarques7/learn-go-with-tests/16_math/clockface" // REPLACE THIS!
+	"github.com/rafaelmarques7/learn-go-with-tests/16_maths/clockface" // REPLACE THIS!
 )
 
 func main() {
