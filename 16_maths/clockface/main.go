@@ -6,8 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/rafaelmarques7/learn-go-with-tests/16_maths"
+	// "github.com/rafaelmarques7/learn-go-with-tests/16_maths/clockface"
 	"github.com/rafaelmarques7/learn-go-with-tests/16_maths/clockface"
+	// "learn-go-with-tests/16_maths/clockface"
+	// "16_maths/clockface"
 )
 
 func main() {
